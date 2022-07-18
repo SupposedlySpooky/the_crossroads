@@ -114,12 +114,17 @@ margin-top: 10%;
 }
 
 @media screen and (max-width: 850px) {
-  div.topright, div.buttons, div.leftjunk {
+  div.topright, div.radio, div.radiofriends, div.buttons, div.leftjunk {
     display: none;
       
   }
     div.sidenav{
         width: 20%;
+    }
+    
+    div.main{
+        margin-left: 90px;
+        width: 70vw;
     }
 }
 
