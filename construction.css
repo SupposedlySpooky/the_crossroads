@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+     overflow-x: hidden;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: -1;
+}
