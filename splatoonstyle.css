@@ -108,7 +108,7 @@ h4{
     margin: 10px;
     padding: 10px;
     background-color: lightgray;
-    height: 525px;
+    height: fit-container;
 }
 
 .radio{

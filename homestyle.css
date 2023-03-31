@@ -78,6 +78,8 @@ padding: 5px;
     overflow-x: hidden;
 }
 
+
+
 .links{
     z-index: 1;
     background-color: black;
@@ -219,7 +221,7 @@ margin-top: 10%;
     padding: 10px;
     z-index: 5;
     height:fit-content;
-    width: 200px;
+    width: 230px;
     top: 0;
     left: 0;
         
@@ -247,8 +249,8 @@ margin-top: 10%;
         width: 70vw;
     }
     
-    div.radio, div.radiofriends{
-        
+    div.radio, div.radiofriends, div.counter, div.chatBox, #statuscafe{
+        display: none;
     }
 }
 
@@ -333,6 +335,31 @@ margin-bottom: 68px;
     margin-right: 5px;
 padding: 0px; 
     position: fixed;
+}
+
+#statuscafe {
+    position: fixed;
+    width: fit-content;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: .5em;
+    background-color: beige;
+    border: 2px double #c60f7b;
+    color: black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    width: 250px;
+}
+
+.chatBox{
+    margin-top: 20px;
+    border:5px;
+    border-color: #c60f7b;
 }
 
 .radio{
