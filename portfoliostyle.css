@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background-color: skyblue
+}
+
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5;
+    width: fit-content;
+    
+    padding: 10px;
+        border-radius: 0px 0px 20px 0px;
+    border: outset lightgrey;
+    background-color: white;
+}
+
+.title{
+    margin: 10px;
+    padding: 5px;
+    width: fit-content;
+        border: 2px outset;
+    border-color: lightgray;
+     background-color: aliceblue;
+}
+
+
+.parent {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  width:max-content;
+                border: 5px dotted;
+    padding:  5px;
+    border-color: pink;
+    background-color: aliceblue;
+
+}
+
+.crop {
+    object-fit: cover;
+    width: 300;
+    height: 300px;
+    overflow: hidden;
+}
+
+h3{
+        margin: 0;
+    margin-top: 5px;
+    margin-bottom: -13px;
+    color:white;
+
+}
+
+h4{
+    margin: 1px;
+    font-size: 19px;
+}
+
+.child {
+  display:inline-block;
+  vertical-align: top;
+    margin: 5px;
+    width: fit-container;
+}
+
+
+table{
+    width: 300px;
+            border: 2px outset;
+    border-color: lightgray;
+     background-color: aliceblue;
+}
+
+.message{
+    text-align: left;
+    padding: 5px;
+width: 400px;
+            border: 2px outset;
+    border-color: lightgray;
+     background-color: aliceblue;
+}
+
+td{
+    text-align: center;
+}
+
+.radiofriends{
+    z-index: 1;
+   bottom: 0;
+right: 0;
+margin-bottom: 68px;
+    margin-right: 5px;
+padding: 0px; 
+    position: fixed;
+}
+
+
+.radio{
+    font-family: monospace;
+bottom: 0;
+right: 0;
+margin: 0px;
+padding: 0px;
+    background-color: black;
+    width: fit-container;
+    position: fixed;
+    border: 5px outset;
+    border-color: lightgray;
+    text-align: center;
+        overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    color: white;
+    
+}
+
+.audioplayer{
+    width: 210px;
+    height: 30px;
+        margin-left: 3px;
+    margin-right: 3px;
+}
+
+marquee{
+    color:black;
+}
