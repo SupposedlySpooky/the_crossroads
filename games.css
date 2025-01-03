@@ -1,0 +1,209 @@
+body{
+        background-position: center;
+        margin: 0;
+       overflow-y: auto;
+    overflow-x: hidden;
+    background-image: url(images/games/eyeblock.jpg);
+    width: 50%;
+    background-position: top;
+    
+        image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+td{
+    width:50%;
+}
+
+.main{
+    align-self: center;
+    background-color: aliceblue;
+    width: 700px;
+    margin: 10px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+        background-image:url(images/home/sky.gif);
+}
+
+.game{
+    margin: 10px;
+    filter: drop-shadow(black 2px 3px 5px);
+    
+}
+
+button{
+        background-image:url(images/games/nurple-static-bright.gif);
+
+}
+
+.deadgame{
+    margin: 10px;
+    width 600px;
+    filter: drop-shadow(black 2px 3px 5px)
+        
+          border-style: solid;
+    border-color: aliceblue;
+  border-width: 10px;
+}
+
+.title{
+    margin: 20px;
+    color: aqua;
+}
+
+.paragraph{
+    margin: 10px;
+}
+
+.floater{
+    position:absolute;
+}
+
+.floater-right{
+    float:right;
+    width: 600px;
+    z-index: -1;
+}
+
+#sign{
+    top:280px;
+    right: -10px;
+    transform: rotate(1deg);
+    align-content: center;
+}
+
+#whalepond{
+    top:400px;
+    right:100px;
+    transform: rotate(-1deg)
+}
+
+#seepage{
+    top:600px;
+    right:100px;
+    transform: rotate(1deg)
+}
+
+#waterwhim{
+    top:800px;
+    right:90px;
+    transform: rotate(2deg)
+}
+
+#impromptu{
+    top:1000px;
+    right:120px;
+    transform: rotate(-1deg)
+}
+
+#burdock{
+    top:1200px;
+    right:70px;
+    transform: rotate(1deg)
+}
+
+
+#waybackwhinn{
+    top:1400px;
+    right:90px;
+    transform: rotate(2deg)
+}
+
+
+#necrotical{
+    top:1600px;
+    right:100px;
+    transform: rotate(-1deg)
+}
+
+
+#mmo{
+    top:1800px;
+    right:90px;
+    transform: rotate(1deg)
+}
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+
+}
+
+
+.radio{
+    font-family: monospace;
+bottom: 0;
+right: 0;
+margin: 0px;
+padding: 0px;
+    background-color: black;
+    width: fit-container;
+    position: fixed;
+    border: 5px outset;
+    border-color: lightgray;
+    text-align: center;
+        overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    height: 70px;
+}
+
+.audioplayer{
+    width: 210px;
+    height: 20px;
+        margin-left: 3px;
+    margin-right: 3px;
+}
+
+h4{
+        margin: 0;
+    margin-top: 5px;
+    margin-bottom: -13px;
+    color:white;
+
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    margin: 15px;
+}
+
+.back{
+position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: fit-content;
+    
+    padding: 10px;
+        border-radius: 0px 0px 20px 0px;
+    border: outset lightgrey;
+    background-color: white;
+    z-index: 2;
+}
+

@@ -1,65 +1,137 @@
-body{
-    margin: 0px;
+html{
 }
 
-.backdrop{
-    background-image: url(images/shrines/splatoonbackground.png);
-    background-repeat: none;
-    width: 100%;
-    height: 100%;
-    position:fixed;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    
-  background-position: center;
-}
-
-.back{
-position: fixed;
-    top: 0;
-    left: 0;
-    margin: 5;
-    width: fit-content;
-    
-    padding: 10px;
-        border-radius: 0px 0px 20px 0px;
-    border: outset lightgrey;
+body {
+    width: max-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
     background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 13px;
+    line-height: 14px;
+    color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "MS UI Gothic";
+    background-color: oldlace;
+    background-image: url(images/splatoon/background.jpg);
+    background-size: auto;
+    
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: 'fonts/SplatoonFont.otf';
+}
+
+banner{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+        background-color: antiquewhite;
+    font-size: 50px;
+    font-family: basiic;
 }
 
 .main{
-   border: 6px groove blue;
-        border-radius: 5px;
+   background-color: aliceblue;
+    width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px double black;
     
-    font-family: Comic Sans MS;
-    z-index: 1;
-    position:relative;
-    margin: 50px;
-    padding: 20;
-    width: fit-content;
+}
+
+.header{
     background-color: white;
-    padding: 12px;
-    
-    background-image: url(images/shrines/splatoonsplatter.jpg);
-    
-    width: 55%
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
-h1{
-    margin: 5px;
+.subject{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.content{
+    background-color: white;
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}
+
+.auregem{
+    background-color: darkcyan;
+    background-image: url(images/splatoon/asfalt-dark.png);
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}.apex{
+    background-color: lightcyan;
+    background-image: url(images/splatoon/asfalt-dark.png);
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}.zombie{
     background-color: pink;
-    font-family:sans-serif;
-    -webkit-text-stroke: 1px white;
+    background-image: url(images/splatoon/asfalt-dark.png);
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}.window{
+    background-color: yellow;
+    background-image: url(images/splatoon/asfalt-dark.png);
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}.blaze{
+    background-color: darkorange;
+    background-image: url(images/splatoon/asfalt-dark.png);
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
 }
 
-h3{
-    margin: 5px;
-    background-color: lightyellow;
-    font-family:sans-serif;
-    width:fit-content;
-    padding:10px;
-    
+.paragraph{
+    margin: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.weapons{
+    margin: 15px;
+align-content: center;
+}
+
+.paragraph2{
+    margin: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: aliceblue;
+}
+
+.floater{
+    position:absolute;
+}
+
+.floater-right{
+    float:right;
+}
+
+.floater-left{
+    float:left;
 }
 
 h4{
@@ -70,46 +142,6 @@ h4{
 
 }
 
-.text{
-    width: 300px;
-    margin: 14px;
-    padding: 5px;
-    background-color: lightblue;
-}
-
-.parent {
-  width:100;
-}
-
-
-.child {
-  display:inline-block;
-  vertical-align: top;
-    margin: 5px;
-    width: fit-container;
-    background-color: white;
-    padding: 5px;
-}
-
-.sidebar{
-    position: fixed;
-    right: 0;
-    top: 0;
-    margin: 50px;
-    margin-top: 50px;
-    z-index: 1;
-    background-color: white;
-    border: 6px groove blue;
-   
-}
-
-.sidebarinside{
-    overflow-y: scroll;
-    margin: 10px;
-    padding: 10px;
-    background-color: lightgray;
-    height: fit-container;
-}
 
 .radio{
     font-family: monospace;
@@ -135,3 +167,95 @@ padding: 0px;
         margin-left: 3px;
     margin-right: 3px;
 }
+
+.back{
+position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5;
+    width: fit-content;
+    
+    padding: 10px;
+        border-radius: 0px 0px 20px 0px;
+    border: outset lightgrey;
+    background-color: white;
+}
+
+#grafiti-fragile{
+    top:100px;
+    right:-300px;
+}
+#grafiti-hotlantis{
+    top:100px;
+    left:-250px;
+}
+#battering-lento{
+    top:500px;
+    left:-500px;
+    z-index: -1;
+}
+#little-guy{
+    top:458px;
+    right:-200px;
+}
+
+#acht{
+    top:680px;
+    right:-370px;
+    z-index: -1;
+    transform: rotate(15deg)
+}
+
+#tp1{
+    top:1200px;
+    left:-510px;
+    z-index: -1;
+    transform: rotate(-5deg)
+}
+
+#tp2{
+    top:1050px;
+    right:-370px;
+    z-index: -1;
+}
+
+#clown{
+    top:1500px;
+    right:-370px;
+    z-index: -1;
+    transform: rotate(5deg)
+}
+
+#excecution{
+    top:1850px;
+    left:-370px;
+    z-index: -1;
+    transform: rotate(-10deg)
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+
+

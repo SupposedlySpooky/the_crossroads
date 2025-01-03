@@ -1,0 +1,125 @@
+html{
+}
+
+body {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "MS UI Gothic";
+    background-image: url(images/barnacles/searocks.jpg);
+    
+}
+
+.banner{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+        background-color: antiquewhite;
+    font-size: 50px;
+    font-family: basiic;
+    position:relative;
+}
+
+.blocks{
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+     display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr;
+ column-gap: 5px;
+      margin-left: auto;
+  margin-right: auto;
+}
+
+sticky {
+    position:sticky;
+    margin: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: antiquewhite;
+  padding: 10px;
+    width: max;
+    margin: 50px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.radio{
+    font-family: monospace;
+bottom: 0;
+right: 0;
+margin: 0px;
+padding: 0px;
+    background-color: black;
+    width: fit-container;
+    position: fixed;
+    border: 5px outset;
+    border-color: lightgray;
+    text-align: center;
+        overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    height: 70px;
+}
+
+.audioplayer{
+    width: 210px;
+    height: 20px;
+        margin-left: 3px;
+    margin-right: 3px;
+}
+
+@keyframes boing{
+    100%{
+        border: 2px solid black;
+    }
+    
+    78%{
+        border: 10px solid black;
+    }
+    
+    32%{
+        border: 7px solid black;
+    }
+    
+    
+    25%{
+        border: 12px solid black;
+    }
+    
+    11%{
+        border: 2px solid black;
+    }
+}

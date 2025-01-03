@@ -14,7 +14,7 @@ body {
 }
 
 .backdrop{
-  background-image: url(images/stars.png);
+  background-image: url(images/home/cave_painting.jpg);
     background-repeat: repeat;
     position: fixed;
     z-index: -1;
@@ -25,7 +25,7 @@ body {
     background-size:cntain;
     background-position: center;
     
-	animation: anim_back 120s linear infinite;
+	animation: anim_back 200s linear infinite;
 }
 
 .header{
@@ -39,7 +39,7 @@ body {
     padding: 10px;
     height: fit-content;
     
-    background-image: url(images/swirly.png);
+    background-image: url(images/home/wallnut.jpg);
 }
 
 .counter{
@@ -52,7 +52,7 @@ padding: 0px;
     position: fixed;
         border: 5px;
     border-style: double double none none;
-       border-color: #f90093;
+       border-color: sandybrown;
     background-color: black;
     color: white;
     font-size: 12px;
@@ -70,7 +70,7 @@ padding: 5px;
     line-height: 1.5em;
     margin-top: 10px;
     border: 6px outset;
-    border-color: #c60f7b;
+    border-color: sandybrown;
     margin-left: 0vw;
     margin right: 0vw;
     position:relative;
@@ -89,10 +89,10 @@ padding: 5px;
     height: auto;
     margin-top: 10px;
     border: 6px double;
-    border-color: #c60f7b;
+    border-color: sandybrown;
     margin-left: 0vw;
     margin right: 0vw;
-   
+   padding: 8px;
     overflow-x: hidden;
 }
 
@@ -151,10 +151,12 @@ summary::-webkit-details-marker {
     color: #101310;
     font-family: monospace;
     padding: 1px;
+    background-image: url(images/home/cover_line1.gif);
 }
 
 .article{
     text-align: left;
+    background-color: beige;
     margin: 25px;
     padding: 10px;
     font-size: 14px;
@@ -165,6 +167,15 @@ summary::-webkit-details-marker {
     z-index: 0;
 }
 
+.floater{
+    position:absolute;
+}
+
+.floater-right{
+    float:right;
+    z-index: 1;
+}
+
 #hummingbird{
         position: absolute;
     float: left;
@@ -172,16 +183,29 @@ summary::-webkit-details-marker {
     top: 400px;
 }
 
+#left-sigil{
+    top:1000px;
+    left:0;
+}
+#right-sigil{
+    top:700px;
+    right:20px;
+}
+
 #rabbit{
-    z-index:-1;
+    z-index:1;
 position: fixed;
     bottom:0;
     left: 190px;
 }
 
+
+
 #navimage{
 margin-top: 10%;
 }
+
+
 
 
 .bottom{
@@ -230,13 +254,13 @@ margin-top: 10%;
         
     border:5px;
     border-style: double double double none;
-    border-color: #f90093;
+    border-color: sandybrown;
     
       position: absolute;
 }
 
 @media screen and (max-width: 850px) {
-  div.topright, div.buttons, div.leftjunk, div.counter div.header {
+  div.topright, div.buttons, div.leftjunk, div.counter, div.sidenav{
     display: none;
       
   }
@@ -245,8 +269,7 @@ margin-top: 10%;
     }
     
     div.main{
-        margin-left: 90px;
-        width: 70vw;
+        width: 100%;
     }
     
     div.radio, div.radiofriends, div.counter, div.chatBox, #statuscafe{
@@ -283,7 +306,7 @@ margin-top: 10%;
     right: 0;
     width: fit-content;
     height: fit-content;
-    color: #f90093;
+    color: sandybrown;
     background-color: black;
     padding: 3px;
     padding-bottom:0px;
@@ -401,11 +424,7 @@ padding: 0px;
   animation-iteration-count: infinite;
 }
 
-.logo{
-      animation-name: bounce;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
+
 
 @keyframes dance {
     0% {transform: rotate(0deg);}

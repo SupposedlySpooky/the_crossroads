@@ -1,0 +1,138 @@
+html{
+}
+
+body {
+    width: max-content;
+    position: relative;
+    margin-left: 20px;
+    margin-right: auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 13px;
+    line-height: 14px;
+    color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "MS UI Gothic";
+    background-color: oldlace
+    
+}
+
+
+banner{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+        background-color: antiquewhite;
+    font-size: 50px;
+    font-family: basiic;
+    animation: pulse 0.35s ease-in-out infinite alternate;
+}
+
+.main{
+   background-color: aliceblue;
+    width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px double black;
+    
+}
+
+.header{
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.subject{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.content{
+    background-color: white;
+    font-size: 14px;
+    padding: 20px;
+    border: 2px double grey;
+}
+
+.paragraph{
+    margin: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.paragraph2{
+    margin: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: aliceblue;
+}
+
+
+#rad1:checked ~ #option1Content{
+    display:block;
+}
+
+.option1Content {
+    display: none;
+}
+
+#rad2:checked ~ #option2Content{
+    display:block;
+}
+
+.option2Content {
+    display: none;
+}
+
+.shaker{
+    animation: skew-y-shakeing .5s infinite;
+    text-align: center;
+}
+
+@keyframes skew-y-shakeing{
+ 0% { transform: skewY(-2deg); }
+ 5% { transform: skewY(2deg); }
+ 10% { transform: skewY(-2deg); }
+ 15% { transform: skewY(2deg); }
+ 20% { transform: skewY(0deg); }
+ 100% { transform: skewY(0deg); }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+
+

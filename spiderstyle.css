@@ -1,0 +1,178 @@
+html{
+    display: block;
+}
+
+body {
+    width: max-content;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    background-color: white;
+    font-size: 13px;
+    line-height: 14px;
+    color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "MS UI Gothic";
+     background-image: url(images/barnacles/searocks.jpg);
+    
+}
+
+.back{
+position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5;
+    width: fit-content;
+    
+    padding: 10px;
+        border-radius: 0px 0px 20px 0px;
+    border: outset lightgrey;
+    background-color: white;
+}
+
+banner{
+    text-align: center;
+    border: 2px double black;
+        background-color: ghostwhite;
+    font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.maintext{
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    margin: 10px;
+}
+
+h4{
+        margin: 0;
+    margin-top: 5px;
+    margin-bottom: -13px;
+    color:white;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main right right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: rgba(0, 0, 255, 0.3);
+  padding: 10px;
+    width: max;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.item1 { 
+    grid-area: header; 
+    height: 40px;
+}
+
+.item2 { 
+    grid-area: menu; 
+    width: 120px;
+}
+
+.item3 { 
+    grid-area: main;
+    width: 325px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.item4 { 
+    grid-area: right; 
+    height: 200px;
+    width: fit-container;
+    overflow-y: scroll;
+}
+
+.item5 { 
+    grid-area: footer; 
+    height: 300px;
+    width: 650px;
+    font-size: 15px;
+}
+
+.bottomimage{
+    height: 200;
+    
+}
+
+#barnacleone{
+    top:200px;
+    right:-200px;
+}
+
+#barnacletwo{
+    bottom:-100px;
+    left:-200px;
+}
+
+.floater{
+    position:absolute;
+}
+
+.floater-right{
+    float:right;
+}
+
+.floater-left{
+    float:left;
+}
+
+
+
+h4{
+        margin: 0;
+    margin-top: 5px;
+    margin-bottom: -13px;
+    color:white;
+
+}
+
+
+.radio{
+    font-family: monospace;
+bottom: 0;
+right: 0;
+margin: 0px;
+padding: 0px;
+    background-color: black;
+    width: fit-container;
+    position: fixed;
+    border: 5px outset;
+    border-color: lightgray;
+    text-align: center;
+        overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    height: 70px;
+}
+
+.audioplayer{
+    width: 210px;
+    height: 20px;
+        margin-left: 3px;
+    margin-right: 3px;
+}
